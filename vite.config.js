@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [svelte()],
   base: './',
   build: {
-    outDir: './doc'
+    outDir: './docs'
   }
   // optimizeDeps: {
   //   include: ['three', 'three/webgpu', 'three/tsl'],
